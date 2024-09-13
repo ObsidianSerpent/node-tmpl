@@ -1,0 +1,33 @@
+{
+  "name": "node-tmpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "node --import @swc-node/register/esm-register ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@swc-node/register": "^1.10.9",
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.26",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
